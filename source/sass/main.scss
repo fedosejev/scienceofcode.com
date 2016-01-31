@@ -1,0 +1,257 @@
+@import url(https://fonts.googleapis.com/css?family=Bitter:400,400italic,700);
+@import "./theme/_variables";
+@import "./theme/_bootswatch";
+@import "./_call-to-action-button";
+
+$section-header-font-size: 1.4em;
+
+* {
+  font-family: 'Abel', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  font-size: 22px;
+  color: #333;
+  background-color: #333;
+}
+
+p {
+  margin: 0;
+  padding: 0; 
+}
+
+.btn {
+  white-space: normal;
+}
+
+.buy {
+  margin-top: 50px;
+}
+
+section {
+  border-top: 1px solid #eee;
+  background-color: #fff;
+
+  h4 {
+    line-height: 1.3em;
+    color: #444;
+    font-size: $section-header-font-size;
+    font-weight: bold;
+    margin: 0px 0px 40px 0;
+  }
+
+  h5 {
+    line-height: 1.3em;
+    color: #444;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 40px 0px 40px 0;
+  }
+
+  a {
+    color: #8a5cb8;
+    margin-top: 20px;
+
+    &:hover {
+      color: #59367c;
+      text-decoration: none;
+    }
+  }
+}
+
+.page-section__introduction {
+  padding: 40px 0;
+  text-align: center;
+
+  .book-cover {
+    width: 100%;
+    max-width: 800px;
+    margin-bottom: 20px;
+  }
+
+  h1 {
+    margin: 0 0 30px 0;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.8em;
+  }
+
+  h2 {
+    margin: 0;
+    text-align: center;
+    font-weight: bold;
+    line-height: 40px;
+  }
+
+  .amazon-rating {
+    margin-top: 40px;
+  }
+
+  .stars {
+    font-weight: normal;
+    font-size: 1.2em;
+    color: #ffd700;
+    margin-bottom: 10px;
+
+    span {
+      font-family: 'Bitter';
+      line-height: 10px;
+      font-weight: normal;
+      padding: 0 5px;
+      color: #999;
+    }
+  }
+
+  .book-formats-available {
+    display: block;
+    color: #777;
+    margin-top: 30px;
+  }
+}
+
+.page-section__customer-feedback {
+  padding: 60px 0;
+  text-align: center;
+
+  .customer-quote {
+    font-weight: normal;
+    font-size: 1.2em;
+    margin: 0 0 0 0;
+
+    span {
+      font-family: 'Bitter';
+      line-height: 10px;
+      font-weight: normal;
+      padding: 0 5px;
+      color: #999;
+    }
+  }
+
+  .customer-quote-source {
+    display: inline-block;
+    margin-bottom: 30px;
+  }
+
+  .community {
+    margin-top: 40px;
+
+    .fa {
+      display: inline-block;
+      font-size: 2.5em;
+      margin-bottom: 20px;
+    }
+
+    iframe {
+      margin-top: 20px;
+    }
+  }
+}
+
+.page-section__amazon-rating {
+  padding: 60px 0;
+  text-align: center;
+
+  .amazon-rating {
+    margin-top: 40px;
+  }
+
+  .stars {
+    font-weight: normal;
+    font-size: 1.2em;
+    color: #ffd700;
+    margin-bottom: 10px;
+
+    span {
+      font-family: 'Bitter';
+      line-height: 10px;
+      font-weight: normal;
+      padding: 0 5px;
+      color: #999;
+    }
+  }
+
+  .sales-worldwide {
+    margin: 40px 0 0 0;
+  }
+}
+
+.page-section__book-content {
+  padding: 60px 0;
+  text-align: center;
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+
+    li {
+      margin: 20px 0;
+
+      &:last-of-type {
+        margin-bottom: 0;
+      }
+    
+      small {
+        display: block;
+        color: #777;
+      }
+
+      p {
+        font-weight: bold;
+        font-size: 1.1em;
+      }
+    }
+  }
+
+  .project {
+    margin-top: 60px;
+
+    .fa {
+      display: inline-block;
+      font-size: 2.8em;
+      margin-bottom: 30px;
+    }
+
+    .description {
+      font-size: 1.2em;
+    }
+  }
+}
+
+.page-section__about-author {
+  padding: 60px 0;
+  text-align: center;
+
+  .author-photo {
+    width: 300px;
+  }
+
+  p {
+    font-size: 1.1em;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+
+  .social-links a {
+    font-size: 2em;
+    margin: 0 20px;
+  }
+}
+
+.page-section__message {
+  padding: 60px 0;
+  text-align: center;
+  background-color: #333;
+  color: #fff;
+  font-weight: bold;
+  font-size: 30px;
+
+  .btn {
+    margin-top: 40px;
+    padding: 0.4em 0.8em;
+    font-size: 0.8em;
+  }
+}
